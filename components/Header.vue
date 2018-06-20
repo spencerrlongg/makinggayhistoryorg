@@ -29,6 +29,7 @@ export default {
         { title: 'Education', external: false, href: 'education' },
         { title: 'Books', external: false, href: 'books' },
         { title: 'Events', external: false, href: 'events' },
+        { title: 'Support', external: false, href: 'support' },
         { title: 'About', external: false, href: 'about' },
         { title: 'Contact', external: true, href: 'mailto:hello@makinggayhistory.org' }
       ]
