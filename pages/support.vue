@@ -11,7 +11,7 @@
 export default {
   data () {
     return {
-      heading: 'Thank you for supporting Making Gay History!',
+      heading: 'Thank you for supporting MGH!',
     }
   },
   transition: 'fade'
