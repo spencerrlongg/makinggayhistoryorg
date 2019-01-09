@@ -24,7 +24,7 @@ export default {
     return {
       isMenuActive: false,
       links: [
-        { title: 'Podcast', external: true, href: 'http://makinggayhistory.com' },
+        { title: 'Explore our Podcast', external: true, href: 'http://makinggayhistory.com' },
         { title: 'Archive', external: false, href: 'archive' },
         { title: 'Education', external: false, href: 'education' },
         { title: 'Books', external: false, href: 'books' },
