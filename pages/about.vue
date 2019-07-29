@@ -17,7 +17,7 @@ export default {
       heading: 'Making Gay History',
       cta: 'Need our help?  <a href="mailto:hello@makinggayhistory.org">Get in touch.</a>',
       imageAlt: [ 'Headshot of Eric Marcus', 'Headshot of Sara Burningham' ],
-      body: [ '<strong>Eric Marcus</strong> is the founder and host of the Making Gay History podcast.  He is the author and co-author of a dozen books, including <i>Making Gay History, Is It A Choice?, Why Suicide?,</i> and <i>Breaking the Surface,</i> the #1 New York Times bestselling autobiography of Olympic diving champion Greg Louganis.' ]
+      body: [ '<strong>Eric Marcus</strong> is the founder and host of the Making Gay History podcast.  He is the author and co-author of a dozen books, including <i>Making Gay History, Is It A Choice?, Why Suicide?,</i> and <i>Breaking the Surface,</i> the #1 <em>New York Times</em> bestselling autobiography of Olympic diving champion Greg Louganis.' ]
     }
   },
   transition: 'fade'
