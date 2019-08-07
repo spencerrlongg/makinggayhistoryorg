@@ -9,7 +9,7 @@ module.exports = {
   */
   head: {
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v2' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700' }
     ]
   },
