@@ -14,7 +14,7 @@ export default {
     return {
       heading: 'Events',
       imageAlt: 'Photo of group with Eric Marus at Trevor Project presentation',
-      body: 'Making Gay History produces exciting and engaging panel discussions, listening parties, and live events, including Making Gay History’s Queer Quiz Show®, an interactive gay history trivia contest.  We’ve presented to schools, companies, community groups, and organizations of all kinds.<br /><br /><a href="mailto:carol@workman.com">Contact Carol Schneider</a> for information.'
+      body: 'Making Gay History produces exciting and engaging panel discussions, listening parties, and live events, including Making Gay History’s Queer Quiz Show®, an interactive gay history trivia contest.  We’ve presented to schools, companies, community groups, and organizations of all kinds.<br /><br /><a href="mailto:hello@makinggayhistory.org">hello@makinggayhistory.org</a> for information.'
     }
   },
   transition: 'fade'
