@@ -21,7 +21,7 @@ export default {
         },
         { title: "Archive", external: false, href: "archive" },
         { title: "Education", external: false, href: "education" },
-        { title: "Books", external: false, href: "books" },
+        { title: "Play", external: false, href: "play" },
         { title: "Events", external: false, href: "events" },
         { title: "Support", external: false, href: "support" }
       ]
