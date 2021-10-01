@@ -2,11 +2,16 @@
   <header>
     <q>We can’t know where we’re going if we don’t know where we’ve been.</q>
     <nuxt-link to="/">
-      <img src="~assets/img/MarcusLogoTransparentOutlined_nopod.png" alt="Making Gay History Org Logo">
+      <img src="~assets/img/MarcusLogoTransparentOutlined_nopod.png" alt="Making Gay History Org Logo" />
     </nuxt-link>
-    <p>We bring LGBTQ history to life through the voices of the people who lived it &mdash; creating podcasts and documentaries, sourcing and licensing archival materials, producing events, and developing LGBTQ-inclusive educational resources.</p>
-    <button class="menu-button" type="button" @click="isMenuActive = !isMenuActive"><span class="menu-button-wrapper"><span class="menu-button-bars" :class="{ 'active': isMenuActive }"></span></span></button>
-    <nav class="menu" :class="{ 'active': isMenuActive }">
+    <p>
+      Making Gay History is a 501(c)(3) nonprofit organization that brings LGBTQ history to life through the voices of the people who lived it &mdash; creating podcasts and documentaries, sourcing and
+      licensing archival materials, producing events, and developing LGBTQ-inclusive educational resources.
+    </p>
+    <button class="menu-button" type="button" @click="isMenuActive = !isMenuActive">
+      <span class="menu-button-wrapper"><span class="menu-button-bars" :class="{ active: isMenuActive }"></span></span>
+    </button>
+    <nav class="menu" :class="{ active: isMenuActive }">
       <ul>
         <li v-for="link in links" :key="link.title" @click="isMenuActive = !isMenuActive">
           <a v-if="link.external" :href="link.href">{{ link.title }}</a>
@@ -14,27 +19,27 @@
         </li>
       </ul>
     </nav>
-    <div class="menu-cover" :class="{ 'active': isMenuActive }" @click="isMenuActive = !isMenuActive"></div>
+    <div class="menu-cover" :class="{ active: isMenuActive }" @click="isMenuActive = !isMenuActive"></div>
   </header>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       isMenuActive: false,
       links: [
-        { title: 'Explore our Podcast', external: true, href: 'http://makinggayhistory.com' },
-        { title: 'Archive', external: false, href: 'archive' },
-        { title: 'Education', external: false, href: 'education' },
-        { title: 'Play', external: false, href: 'play' },
-        { title: 'Events', external: false, href: 'events' },
-        { title: 'Support', external: false, href: 'support' },
-        { title: 'About', external: false, href: 'about' },
-        { title: 'Contact', external: true, href: 'mailto:hello@makinggayhistory.org' }
-      ]
+        { title: "Explore our Podcast", external: true, href: "http://makinggayhistory.com" },
+        { title: "Archive", external: false, href: "archive" },
+        { title: "Education", external: false, href: "education" },
+        { title: "Play", external: false, href: "play" },
+        { title: "Events", external: false, href: "events" },
+        { title: "Support", external: false, href: "support" },
+        { title: "About", external: false, href: "about" },
+        { title: "Contact", external: false, href: "contact" },
+      ],
     }
-  }
+  },
 }
 </script>
 
@@ -59,7 +64,7 @@ img {
   max-width: 350px;
   margin: 1rem auto;
   background: rgba(255, 255, 255, 0.7);
-  }
+}
 p {
   width: 90vw;
   min-width: 200px;
@@ -79,7 +84,7 @@ p {
   right: 10px;
   cursor: pointer;
 }
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .menu-button {
     top: 30px;
     right: 30px;
@@ -95,22 +100,25 @@ p {
   height: 40px;
   z-index: 101;
 }
-.menu-button-bars, .menu-button-bars:before, .menu-button-bars:after {
+.menu-button-bars,
+.menu-button-bars:before,
+.menu-button-bars:after {
   display: block;
   width: 40px;
   height: 4px;
   border-radius: 10px;
   background-color: #000;
-  content: '';
+  content: "";
   position: absolute;
   transition: all 0.4s;
   z-index: 102;
 }
-.menu-button-bars, .menu-button-bars:before {
-   top: 10px;
+.menu-button-bars,
+.menu-button-bars:before {
+  top: 10px;
 }
 .menu-button-bars:after {
-   top: 20px;
+  top: 20px;
 }
 .menu-button-bars.active {
   transform: rotate(45deg);
