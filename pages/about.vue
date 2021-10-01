@@ -2,12 +2,11 @@
   <div class="container container--narrow content-page">
     <h1>{{ heading }}</h1>
     <p v-html="cta"></p>
-    <p style="width: 100%">
+    <p style="width: 100%; margin-bottom: 42px">
       Making Gay History is a 501(c)(3) nonprofit organization that addresses the absence of substantive, in-depth LGBTQ-inclusive American history from the public discourse and the classroom by
-      providing a window into that history through the stories of the people who helped a despised minority take its rightful place in society as full and equal citizens. In so doing, we aim to
+      providing a window into that history through the stories of the people who helped a despised minority take its rightful place in society as full and equal citizens. <br />In so doing, we aim to
       encourage connection, pride, and solidarity within the LGBTQ community and to provide an entry point for both allies and the general public to its largely hidden history.
     </p>
-    <hr />
     <div class="flexbox">
       <img src="~assets/img/Eric-Marcus-Head-Shot-Med-Res-16.jpg" :alt="imageAlt[0]" />
       <p v-html="body[0]"></p>
