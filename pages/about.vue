@@ -121,6 +121,14 @@
           </div>
         </div>
         <div class="board-member-container">
+          <img src="~assets/img/board_members/lschere.jpeg" alt="Lee Schere Headshot" />
+          <div>
+            <span class="strong">Lee Schere </span>
+            <span>-</span>
+            <p>Director of Teaching and Learning, CUNY K-16 Initiatives</p>
+          </div>
+        </div>
+        <div class="board-member-container">
           <img src="~assets/img/board_members/jthomas.jpeg" alt="June Thomas Headshot" />
           <div>
             <span class="strong">June Thomas </span>
