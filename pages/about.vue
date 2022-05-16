@@ -21,7 +21,7 @@
           <div>
             <span class="strong">Sydney Baloue </span>
             <span>-</span>
-            <p>Journalist; TV Writer; Co-Executive Producer of HBO Max’s Legendary; Ballroom Culture Archivist and Historian</p>
+            <p>Journalist; TV Writer; Co-Executive Producer of HBO Max’s <i>Legendary</i>; Ballroom Culture Archivist and Historian</p>
           </div>
         </div>
         <div class="board-member-container">
@@ -133,7 +133,7 @@
           <div>
             <span class="strong">June Thomas </span>
             <span>-</span>
-            <p>Senior Managing Producer, Slate Podcasts</p>
+            <p>Producer of <i>Outward</i> and Co-Host of <i>Working</i>, Slate Podcasts; Author of Forthcoming Cultural History <i>Where Are All the Lesbians?</i> (Seal Press)</p>
           </div>
         </div>
         <div class="board-member-container">
