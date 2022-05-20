@@ -56,14 +56,7 @@
             <p>President, Christopher Street Financial</p>
           </div>
         </div>
-        <div class="board-member-container">
-          <img src="~assets/img/board_members/jhumphrie.jpeg" alt="Jamila Humphrie Headshot" />
-          <div>
-            <span class="strong">Jamila Humphrie </span>
-            <span>-</span>
-            <p>Ph.D., Educational Leadership, New York University; Partnership Director, Equal Opportunity Schools</p>
-          </div>
-        </div>
+
         <div class="board-member-container">
           <img src="~assets/img/board_members/kjennings.jpeg" alt="Kevin Jennings Headshot" />
           <div>
@@ -126,6 +119,14 @@
             <span class="strong">Lee Schere </span>
             <span>-</span>
             <p>Director of Teaching and Learning, CUNY K-16 Initiatives</p>
+          </div>
+        </div>
+        <div class="board-member-container">
+          <img src="~assets/img/board_members/jhumphrie.jpeg" alt="Jamila Silver Headshot" />
+          <div>
+            <span class="strong">Jamila Silver </span>
+            <span>-</span>
+            <p>Ph.D., Educational Leadership, New York University; Partnership Director, Equal Opportunity Schools</p>
           </div>
         </div>
         <div class="board-member-container">
