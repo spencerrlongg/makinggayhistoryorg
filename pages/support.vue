@@ -3,12 +3,13 @@
     <h1>{{ heading }}</h1>
     <div class="flexbox">
       <iframe
-        src="https://cdn.donately.com/core/5.2/donate-form.html?form_id=frm_ffb84ac1c44c&amp;account_id=act_be92c26650f4&amp;stripe_key=pk_live_eser55FwsexB5JBx9x0zT2aQ"
+        src="
+    https://cdn.donately.com/core/5.6/donate-form.html?form_id=frm_ffb84ac1c44c&account_id=act_be92c26650f4&stripe_key=pk_live_eser55FwsexB5JBx9x0zT2aQ"
         width="100%"
-        class="donately-donation-iframe"
-        height="1355px"
+        height="1515px"
         frameborder="0"
         allowtransparency="true"
+        allow="payment *"
         style="
           background-color: transparent;
           border: 0px none transparent;
@@ -17,7 +18,7 @@
           visibility: visible;
           margin: 0px;
           padding: 0px;
-          height: 1355px;
+          height: 1515px;
           width: 100%;
         "
       ></iframe>
