@@ -17,14 +17,6 @@
       <h1>Board of Directors</h1>
       <div class="board-section">
         <div class="board-member-container">
-          <img src="~assets/img/board_members/sbaloue.jpeg" alt="Sydney Baloue Headshot" />
-          <div>
-            <span class="strong">Sydney Baloue </span>
-            <span>-</span>
-            <p>Journalist; TV Writer; Co-Executive Producer of HBO Max’s <i>Legendary</i>; Ballroom Culture Archivist and Historian</p>
-          </div>
-        </div>
-        <div class="board-member-container">
           <img src="~assets/img/board_members/lbradbury.jpeg" alt="Louis Bradbury Headshot" />
           <div>
             <span class="strong">Louis Bradbury </span>
